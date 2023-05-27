@@ -22,7 +22,7 @@
       </div>
       <Transition>
         <div v-if="showRoster" class="flex flex-wrap justify-center text-center caption">
-          <div v-for="(player, index) in bios" :key="index" class="flex flex-col items-center w-1/2 md:w-1/3 lg:w-1/5 p-4">
+          <div v-for="(player, index) in bios" :key="index" class="flex flex-col items-center w-1/2 md:w-1/3 lg:w-1/5 px-4 py-1">
             <p class="text-lg cursor-pointer" @click="playerIndex = index">
               {{ player.first_name }} {{ player.last_name }}
             </p>
@@ -48,7 +48,7 @@ function goBack() {
   }
 }
 function goForward() {
-  if (playerIndex.value < numberOfPlayers) {
+  if (playerIndex.value < numberOfPlayers - 1) {
     playerIndex.value += 1;
   }
 }

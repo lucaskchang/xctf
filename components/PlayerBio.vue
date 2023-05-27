@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-wrap">
     <div class="w-full md:w-1/2 p-4 md:p-12 flex flex-col flex-grow flex-shrink justify-center items-center">
-      <img class="object-cover rounded-xl" :src="'/images/' + playerFullName + '.jpeg'" />
+      <img class="object-cover rounded-xl max-h-[36rem]" :src="'/images/' + playerFullName + '.jpeg'" />
     </div>
     <div class="w-full md:w-1/2 p-4 md:p-12 flex flex-col flex-grow flex-shrink justify-center">
       <p class="text-4xl md:text-5xl font-bold">
