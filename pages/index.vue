@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="h-screen w-full flex flex-col justify-center items-center text-center p-4">
-      <p class="text-5xl md:text-9xl font-bold">Bay School <span class="text-blue-700">XC/TF</span></p>
+      <p class="text-5xl md:text-9xl font-bold">Bay School <span class="text-blue-700 dark:text-blue-500">XC/TF</span></p>
       <p class="text-lg md:text-3xl w-full md:w-5/6 2xl:w-1/2 mt-2 md:mt-8 font-semibold">
         This is about <span class="underline decoration-blue-500 decoration-4 underline-offset-4">us</span> against the <span class="underline decoration-red-500 decoration-4 underline-offset-4">system</span>. The system that kills the <span class="underline decoration-yellow-500 decoration-4 underline-offset-4">human spirit</span>.
       </p>

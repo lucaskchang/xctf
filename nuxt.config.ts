@@ -7,9 +7,13 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode',
     'nuxt-icon'
   ],
   css: [
     '@/assets/styles/main.scss',
   ],
+  colorMode: {
+    classSuffix: ''
+  },
 })

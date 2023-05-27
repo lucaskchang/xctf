@@ -10,7 +10,7 @@
       <p class="text-3xl md:text-4xl mt-2">
         {{ playerBio.grade }} <span v-if="playerBio.captain"> - Captain</span>
       </p>
-      <div class="text-lg md:text-xl">
+      <div class="text-lg md:text-xl caption">
         <p class="mt-4">
           Height: {{ playerHeight }}
         </p>
@@ -24,7 +24,7 @@
           Fun Fact: {{ playerBio.fun_fact }}
         </p>
       </div>
-      <p class="text-black text-xl mt-10">Seasons Run:</p>
+      <p class="text-black dark:text-slate-50 text-xl mt-10 caption">Seasons Run:</p>
       <div class="flex flex-wrap text-white font-bold">
         <div
           v-for="season in playerBio.seasons" 
