@@ -16,4 +16,7 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: ''
   },
+  gtag: {
+    id: 'G-QNLZ5NY7HH'
+  }
 })

@@ -16,6 +16,7 @@
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.7.0",
     "chart.js": "^4.3.0",
+    "nuxt-gtag": "^0.5.7",
     "nuxt-icon": "^0.4.1",
     "sass": "^1.62.1",
     "vue-chartjs": "^5.2.0"
