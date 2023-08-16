@@ -1,17 +1,5 @@
 [
     {
-        "first_name": "James",
-        "last_name": "Landon",
-        "nickname": "Landon Deez Nuts",
-        "grad_year": 2027,
-        "captain": false,
-        "height": 60,
-        "likes": "Running",
-        "dislikes": "Running",
-        "fun_fact": "Got third degree burns from running on top of mauna loa",
-        "seasons": []
-    },
-    {
         "first_name": "Lucas",
         "last_name": "Chang",
         "nickname": "Chucas Lang / l'chang / Quadzilla",
@@ -22,6 +10,18 @@
         "dislikes": "When people touch, his back, vaping club, not hitting milage, eating sour grass, when the weather is sunny but windy, when he has to poop but the bathroom is locked and has to run very fast to find another one",
         "fun_fact": "Has a very structured pooping schedule for maximum performance and recovery",
         "seasons": ["XC 2021", "TF 2022", "XC 2022", "TF 2023"]
+    },
+    {
+        "first_name": "Hayden",
+        "last_name": "Gong",
+        "nickname": "Denny",
+        "grad_year": 2024,
+        "captain": true,
+        "height": 67.5,
+        "likes": "Sleeping on the bus, sunglasses, star fish planks, basketball, Minecraft, Asian dad hat, giving too much information, headbands, telling freshmen what to do, forgetting to bring the sandwiches on the bus",
+        "dislikes": "Breaking his back, breaking his knee, not being able to buy chicken, losing bed wars, being rushed to the bus stop and having to wait for the bus when he could have walked over there later and not have to wait as long, when the ducks r left in the pond",
+        "fun_fact": "Has to piss after every race for sum reason",
+        "seasons": ["TF 2022", "XC 2022", "TF 2023"]
     },
     {
         "first_name": "Elsa",
@@ -36,16 +36,16 @@
         "seasons": ["XC 2021", "TF 2022", "XC 2022", "TF 2023"]
     },
     {
-        "first_name": "Hayden",
-        "last_name": "Gong",
-        "nickname": "Denny",
+        "first_name": "Tate",
+        "last_name": "Rowney",
+        "nickname": "Patient Zero",
         "grad_year": 2024,
-        "captain": true,
-        "height": 67.5,
-        "likes": "Sleeping on the bus, sunglasses, star fish planks, basketball, Minecraft, Asian dad hat, giving too much information, headbands, telling freshmen what to do, forgetting to bring the sandwiches on the bus",
-        "dislikes": "Breaking his back, breaking his knee, not being able to buy chicken, losing bed wars, being rushed to the bus stop and having to wait for the bus when he could have walked over there later and not have to wait as long, when the ducks r left in the pond",
-        "fun_fact": "Has to piss after every race for sum reason",
-        "seasons": ["TF 2022", "XC 2022", "TF 2023"]
+        "captain": false,
+        "height": 71,
+        "likes": "Being an absolute genius, getting a 1480 out of 1520 on the PSAT, coding, Nova the cat, having white boy height, speed, and strength, prepping deadlifts like dumbbells",
+        "dislikes": "Being sick for extended periods of time, coughing while racing, falling down during the 400m season opener",
+        "fun_fact": "Was somehow sick for the entire cross country season with a different sickness",
+        "seasons": ["XC 2021", "TF 2022", "XC 2022", "TF 2023"]
     },
     {
         "first_name": "Vicky",
@@ -72,15 +72,15 @@
         "seasons": ["TF 2022", "TF 2023"]
     },
     {
-        "first_name": "Tate",
-        "last_name": "Rowney",
-        "nickname": "Patient Zero",
-        "grad_year": 2024,
+        "first_name": "Coco",
+        "last_name": "Malloy",
+        "nickname": "The Cackling Witch",
+        "grad_year": 2025,
         "captain": false,
-        "height": 71,
-        "likes": "Being an absolute genius, getting a 1480 out of 1520 on the PSAT, coding, Nova the cat, having white boy height, speed, and strength, prepping deadlifts like dumbbells",
-        "dislikes": "Being sick for extended periods of time, coughing while racing, falling down during the 400m season opener",
-        "fun_fact": "Was somehow sick for the entire cross country season with a different sickness",
+        "height": 63,
+        "likes": "Cackling loudly, energy chews, running on alterG for extended periods of time, more energy chews, ⚽️",
+        "dislikes": "Running hills, taking the long route back to Bay, admitting that there are ponds in Wisconsin, getting judged by Meg, going to practice",
+        "fun_fact": "Is a horse girl",
         "seasons": ["XC 2021", "TF 2022", "XC 2022", "TF 2023"]
     },
     {
@@ -120,28 +120,16 @@
         "seasons": ["XC 2021", "TF 2022", "XC 2022", "TF 2023"]
     },
     {
-        "first_name": "Coco",
-        "last_name": "Malloy",
-        "nickname": "The Cackling Witch",
-        "grad_year": 2025,
-        "captain": false,
-        "height": 63,
-        "likes": "Cackling loudly, energy chews, running on alterG for extended periods of time, more energy chews, ⚽️",
-        "dislikes": "Running hills, taking the long route back to Bay, admitting that there are ponds in Wisconsin, getting judged by Meg, going to practice",
-        "fun_fact": "Is a horse girl",
-        "seasons": ["XC 2021", "TF 2022", "XC 2022", "TF 2023"]
-    },
-    {
-        "first_name": "Benjamin",
-        "last_name": "Pearlstein",
-        "nickname": "Ice Spice",
+        "first_name": "Claire",
+        "last_name": "Andrzejek",
+        "nickname": "Polish Rocket",
         "grad_year": 2026,
         "captain": false,
-        "height": 65,
-        "likes": "Walking during long runs, wearing long pants at practice, running with jelly arms, chess",
-        "dislikes": "Shorts, proper running form, checkers (it's the less skilled chess)",
-        "fun_fact": "Dyed his hair orange for his idol Ice Spice",
-        "seasons": ["TF 2023"]
+        "height": 72,
+        "likes": "Almond butter packets, vaporflys, more almond butter, being a fashion icon, energy chews, watching sunsets during practice",
+        "dislikes": "Laps on the green space, having shin splints, FTP rides on a Peloton, when almond butter is chunky, slowing down",
+        "fun_fact": "Was acquired by Bay in a 1 for 1 trade with her sister",
+        "seasons": ["XC 2022", "TF 2023"]
     },
     {
         "first_name": "Ilan",
@@ -153,18 +141,6 @@
         "likes": "Hokas, alternate grip pullups, bullying people, reading books, doing art stuff",
         "dislikes": "Getting chased by dogs, dogs in general, being injured, being small, getting to practice 1 hour early",
         "fun_fact": "Got jumped by a dog that was the same size as him",
-        "seasons": ["XC 2022", "TF 2023"]
-    },
-    {
-        "first_name": "Claire",
-        "last_name": "Andrzejek",
-        "nickname": "Polish Rocket",
-        "grad_year": 2026,
-        "captain": false,
-        "height": 72,
-        "likes": "Almond butter packets, vaporflys, more almond butter, being a fashion icon, energy chews, watching sunsets during practice",
-        "dislikes": "Laps on the green space, having shin splints, FTP rides on a Peloton, when almond butter is chunky, slowing down",
-        "fun_fact": "Was acquired by Bay in a 1 for 1 trade with her sister",
         "seasons": ["XC 2022", "TF 2023"]
     },
     {
@@ -180,18 +156,6 @@
         "seasons": ["XC 2022", "TF 2023"]
     },
     {
-        "first_name": "Kainoa",
-        "last_name": "Newton",
-        "nickname": "Canoe",
-        "grad_year": 2026,
-        "captain": false,
-        "height": "Long and Lanky",
-        "likes": "Green shoes, running off during warmup, minecraft, watching TV, watching YouTube",
-        "dislikes": "Being called an NPC, nails on a chalkboard",
-        "fun_fact": "Wants to start a new role play minecraft for the team because he was inspired",
-        "seasons": ["TF 2023"]
-    },
-    {
         "first_name": "Meera",
         "last_name": "Costa",
         "nickname": "Mirror",
@@ -201,42 +165,6 @@
         "likes": "Talking, having lots of friends, 6AM yoga, long stick, Indian runs",
         "dislikes": "Leor, when people say pacificly instead of specifically, when the weather doesn't match her mood, hard workouts and lunges, when people call her mirror, when people use basic fonts",
         "fun_fact": "Part of the chronic pissers",
-        "seasons": ["XC 2022", "TF 2023"]
-    },
-    {
-        "first_name": "Sam",
-        "last_name": "West",
-        "nickname": "The Sloth",
-        "grad_year": 2026,
-        "captain": false,
-        "height": "Decent",
-        "likes": "Nick, barking, making random noises, saying HOG RIDERRRRR, Valorant, coc, any video game",
-        "dislikes": "Good posture, grass, core, for the worthy wall of flesh",
-        "fun_fact": "Was the richest player on the cross country minecraft smp",
-        "seasons": ["XC 2022", "TF 2023"]
-    },
-    {
-        "first_name": "Leor",
-        "last_name": "Hersh",
-        "nickname": "The Sahara Desert",
-        "grad_year": 2026,
-        "captain": false,
-        "height": "not 5' 9\"",
-        "likes": "Nick, da boys, doing core, doing 5 minute planks, racing in practice, cuddling, hoodies",
-        "dislikes": "His fingers freezing off, being interesting, himika, cooldowns, forgetting his gloves, being sick, crocs not in sports mode",
-        "fun_fact": "His fingers will lose circulation in weather below 50 degrees",
-        "seasons": ["XC 2022", "TF 2023"]
-    },
-    {
-        "first_name": "Meg",
-        "last_name": "Santel",
-        "nickname": "Megamind",
-        "grad_year": 2026,
-        "captain": false,
-        "height": "Taller than Eric",
-        "likes": "Not struggling in races, pissing before xc races, meera, to draw",
-        "dislikes": "Side plank, lunges, getting scared from behind by barking, momo, dee-ay-NO",
-        "fun_fact": "Ate bread once",
         "seasons": ["XC 2022", "TF 2023"]
     },
     {
@@ -252,6 +180,18 @@
         "seasons": ["XC 2022", "TF 2023"]
     },
     {
+        "first_name": "Leor",
+        "last_name": "Hersh",
+        "nickname": "The Sahara Desert",
+        "grad_year": 2026,
+        "captain": false,
+        "height": "not 5' 9\"",
+        "likes": "Nick, da boys, doing core, doing 5 minute planks, racing in practice, cuddling, hoodies",
+        "dislikes": "His fingers freezing off, being interesting, himika, cooldowns, forgetting his gloves, being sick, crocs not in sports mode",
+        "fun_fact": "His fingers will lose circulation in weather below 50 degrees",
+        "seasons": ["XC 2022", "TF 2023"]
+    },
+    {
         "first_name": "Eric",
         "last_name": "Kocher",
         "nickname": "Bryce",
@@ -262,5 +202,173 @@
         "dislikes": "Running in khakis, CCP, things when they're not fair",
         "fun_fact": "Tore up his vaporflys before the first race",
         "seasons": ["XC 2022", "TF 2023"]
+    },
+    {
+        "first_name": "Kainoa",
+        "last_name": "Newton",
+        "nickname": "Canoe",
+        "grad_year": 2026,
+        "captain": false,
+        "height": "Long and Lanky",
+        "likes": "Green shoes, running off during warmup, minecraft, watching TV, watching YouTube",
+        "dislikes": "Being called an NPC, nails on a chalkboard",
+        "fun_fact": "Wants to start a new role play minecraft for the team because he was inspired",
+        "seasons": ["TF 2023"]
+    },
+    {
+        "first_name": "Benjamin",
+        "last_name": "Pearlstein",
+        "nickname": "Ice Spice",
+        "grad_year": 2026,
+        "captain": false,
+        "height": 65,
+        "likes": "Walking during long runs, wearing long pants at practice, running with jelly arms, chess",
+        "dislikes": "Shorts, proper running form, checkers (it's the less skilled chess)",
+        "fun_fact": "Dyed his hair orange for his idol Ice Spice",
+        "seasons": ["TF 2023"]
+    },
+    {
+        "first_name": "Meg",
+        "last_name": "Santel",
+        "nickname": "Megamind",
+        "grad_year": 2026,
+        "captain": false,
+        "height": "Taller than Eric",
+        "likes": "Not struggling in races, pissing before xc races, meera, to draw",
+        "dislikes": "Side plank, lunges, getting scared from behind by barking, momo, dee-ay-NO",
+        "fun_fact": "Ate bread once",
+        "seasons": ["XC 2022", "TF 2023"]
+    },
+    {
+        "first_name": "Sam",
+        "last_name": "West",
+        "nickname": "The Sloth",
+        "grad_year": 2026,
+        "captain": false,
+        "height": "Decent",
+        "likes": "Nick, barking, making random noises, saying HOG RIDERRRRR, Valorant, coc, any video game",
+        "dislikes": "Good posture, grass, core, for the worthy wall of flesh",
+        "fun_fact": "Was the richest player on the cross country minecraft smp",
+        "seasons": ["XC 2022", "TF 2023"]
+    },
+    {
+        "first_name": "Ryan",
+        "last_name": "Chow",
+        "nickname": "No Nickname",
+        "grad_year": 2027,
+        "captain": false,
+        "height": "?",
+        "likes": "?",
+        "dislikes": "?",
+        "fun_fact": "?",
+        "seasons": []
+    },
+    {
+        "first_name": "Baxter",
+        "last_name": "Damner",
+        "nickname": "No Nickname",
+        "grad_year": 2027,
+        "captain": false,
+        "height": "?",
+        "likes": "?",
+        "dislikes": "?",
+        "fun_fact": "?",
+        "seasons": []
+    },
+    {
+        "first_name": "Graydon",
+        "last_name": "Garden",
+        "nickname": "No Nickname",
+        "grad_year": 2027,
+        "captain": false,
+        "height": "?",
+        "likes": "?",
+        "dislikes": "?",
+        "fun_fact": "?",
+        "seasons": []
+    },
+    {
+        "first_name": "Matthew",
+        "last_name": "Gatz-Levine",
+        "nickname": "No Nickname",
+        "grad_year": 2027,
+        "captain": false,
+        "height": "?",
+        "likes": "?",
+        "dislikes": "?",
+        "fun_fact": "?",
+        "seasons": []
+    },
+    {
+        "first_name": "Emma",
+        "last_name": "Jasik",
+        "nickname": "No Nickname",
+        "grad_year": 2027,
+        "captain": false,
+        "height": "?",
+        "likes": "?",
+        "dislikes": "?",
+        "fun_fact": "?",
+        "seasons": []
+    },
+    {
+        "first_name": "James",
+        "last_name": "Landon",
+        "nickname": "Landon Deez Nuts",
+        "grad_year": 2027,
+        "captain": false,
+        "height": 60,
+        "likes": "Running",
+        "dislikes": "Running",
+        "fun_fact": "Got third degree burns from running on top of mauna loa",
+        "seasons": []
+    },
+    {
+        "first_name": "Harper",
+        "last_name": "Lord",
+        "nickname": "No Nickname",
+        "grad_year": 2027,
+        "captain": false,
+        "height": "?",
+        "likes": "?",
+        "dislikes": "?",
+        "fun_fact": "?",
+        "seasons": []
+    },
+    {
+        "first_name": "Eli",
+        "last_name": "Mitton",
+        "nickname": "No Nickname",
+        "grad_year": 2027,
+        "captain": false,
+        "height": "?",
+        "likes": "?",
+        "dislikes": "?",
+        "fun_fact": "?",
+        "seasons": []
+    },
+    {
+        "first_name": "Caden",
+        "last_name": "Rowney",
+        "nickname": "No Nickname",
+        "grad_year": 2027,
+        "captain": false,
+        "height": "?",
+        "likes": "?",
+        "dislikes": "?",
+        "fun_fact": "?",
+        "seasons": []
+    },
+    {
+        "first_name": "Jade",
+        "last_name": "Wen",
+        "nickname": "No Nickname",
+        "grad_year": 2027,
+        "captain": false,
+        "height": "?",
+        "likes": "?",
+        "dislikes": "?",
+        "fun_fact": "?",
+        "seasons": []
     }
 ]

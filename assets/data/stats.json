@@ -1,18 +1,4 @@
 {
-    "James Landon": {
-        "800m": {
-            "labels": ["2023 SFAL Meet #1", "2023 SFAL Meet #2"],
-            "times": [182.5, 190.32]
-        },
-        "1600m": {
-            "labels": ["2023 SFAL Meet #1"],
-            "times": [296]
-        },
-        "3200m": {
-            "labels": ["2023 SFAL Meet #1"],
-            "times": [599]
-        }
-    },
     "Lucas Chang": {
         "800m": {
             "labels": ["2022 BCL West Meet #1", "2022 BCL West Meet #3", "2023 BCL West #1"],
@@ -33,6 +19,20 @@
         "3200m": {
             "labels": ["2022 TKA Distance Carnival", "2022 BCL West Meet #2", "2022 Viking Track Classic", "2022 BAC Championships", "2023 APU Meet of Champions", "2023 Quicksilver Invitational", "2023 BCL West #3", "2023 BAC Championships", "2023 NCS Class-A Championships"],
             "times": [641, 672, 673, 649, 595, 596, 636, 594, 607]
+        }
+    },
+    "Hayden Gong": {
+        "100m": {
+            "labels": ["2022 BCL West Meet #2", "2023 BAC Championships"],
+            "times": [12.7, 12.92]
+        },
+        "800m": {
+            "labels": ["2023 BCL West #3"],
+            "times": [133.66]
+        },
+        "1600m": {
+            "labels": ["2023 APU Meet of Champions", "2023 Quicksilver Invitational"],
+            "times": [306, 311]
         }
     },
     "Elsa Krummel": {
@@ -69,18 +69,22 @@
             "times": [677, 670]
         }
     },
-    "Hayden Gong": {
-        "100m": {
-            "labels": ["2022 BCL West Meet #2", "2023 BAC Championships"],
-            "times": [12.7, 12.92]
+    "Tate Rowney":{
+        "400m": {
+            "labels": ["2023 Sunset Invitational"],
+            "times": [59.68]
         },
         "800m": {
-            "labels": ["2023 BCL West #3"],
-            "times": [133.66]
+            "labels": ["2022 BCL West Meet #1", "2022 BCL West Meet #3", "2022 BAC Championships", "2023 BCL West #1", "2023 BCL West #3"],
+            "times": [151.84, 147.63, 141.92, 139.07, 139.51]
         },
         "1600m": {
-            "labels": ["2023 APU Meet of Champions", "2023 Quicksilver Invitational"],
-            "times": [306, 311]
+            "labels": ["2022 Sunset Invitational", "2022 BCL Meet West #2", "2023 BCL West #2", "2023 Quicksilver Invitational"],
+            "times": [362, 335, 308, 298]
+        },
+        "3200m": {
+            "labels": ["2022 TKA Distance Carnival", "2022 BCL Meet West #2", "2023 BCL West #2"],
+            "times": [728, 736, 696]
         }
     },
     "Vicky Tan": {
@@ -123,22 +127,10 @@
             "times": [958]
         }
     },
-    "Tate Rowney":{
-        "400m": {
-            "labels": ["2023 Sunset Invitational"],
-            "times": [59.68]
-        },
+    "Coco Malloy": {
         "800m": {
-            "labels": ["2022 BCL West Meet #1", "2022 BCL West Meet #3", "2022 BAC Championships", "2023 BCL West #1", "2023 BCL West #3"],
-            "times": [151.84, 147.63, 141.92, 139.07, 139.51]
-        },
-        "1600m": {
-            "labels": ["2022 Sunset Invitational", "2022 BCL Meet West #2", "2023 BCL West #2", "2023 Quicksilver Invitational"],
-            "times": [362, 335, 308, 298]
-        },
-        "3200m": {
-            "labels": ["2022 TKA Distance Carnival", "2022 BCL Meet West #2", "2023 BCL West #2"],
-            "times": [728, 736, 696]
+            "labels": ["2022 BAC Championships", "2023 BCL West #2", "2023 BCL West #3", "2023 BAC Championships"],
+            "times": [178.98, 168.55, 166.69, 164.52]
         }
     },
     "Lucy Peterson": {
@@ -191,36 +183,6 @@
             "times": [697, 713, 728, 725, 678, 705, 725, 704]
         }
     },
-    "Coco Malloy": {
-        "800m": {
-            "labels": ["2022 BAC Championships", "2023 BCL West #2", "2023 BCL West #3", "2023 BAC Championships"],
-            "times": [178.98, 168.55, 166.69, 164.52]
-        }
-    },
-    "Benjamin Pearlstein": {
-        "400m": {
-            "labels": ["2023 BCL West #1"],
-            "times": [71.46]
-        },
-        "800m": {
-            "labels": ["2023 Sunset Invitational", "2023 BCL West #1", "2023 BCL West #2", "2023 Quicksilver Invitational", "2023 BCL West #3"],
-            "times": [168.62, 169.04, 167.47, 170.85, 171.38]
-        },
-        "1600m": {
-            "labels": ["2023 BCL West #2", "2023 Quicksilver Invitational", "2023 Bearcat Invitational", "2023 BCL West #3", "2023 BAC Championships"],
-            "times": [379, 364, 377, 368, 350]
-        }
-    },
-    "Ilan Azevedo": {
-        "800m": {
-            "labels": ["2023 BCL West #2", "2023 Quicksilver Invitational", "2023 BAC Championships"],
-            "times": [161.99, 158.54, 158.55]
-        },
-        "1600m": {
-            "labels": ["2023 BCL West #3"],
-            "times": [379]
-        }
-    },
     "Claire Andrzejek": {
         "400m": {
             "labels": ["2023 BCL West #1"],
@@ -235,6 +197,16 @@
             "times": [332, 326]
         }
     },
+    "Ilan Azevedo": {
+        "800m": {
+            "labels": ["2023 BCL West #2", "2023 Quicksilver Invitational", "2023 BAC Championships"],
+            "times": [161.99, 158.54, 158.55]
+        },
+        "1600m": {
+            "labels": ["2023 BCL West #3"],
+            "times": [379]
+        }
+    },
     "Jasper Bardwick-McGlone": {
         "400m": {
             "labels": ["2023 BCL West #3"],
@@ -243,20 +215,6 @@
         "800m": {
             "labels": ["2023 Sunset Invitational", "2023 BCL West #2"],
             "times": [139.41, 132.23]
-        }
-    },
-    "Kainoa Newton": {
-        "400m": {
-            "labels": ["2023 BCL West #1"],
-            "times": [62.91]
-        },
-        "800m": {
-            "labels": ["2023 BCL West #1", "2023 BCL West #2", "2023 Quicksilver Invitational", "2023 Bearcat Invitational", "2023 BCL West #3", "2023 BAC Championships"],
-            "times": [152.5, 152.33, 158.25, 147.47, 147.95, 148.1]
-        },
-        "1600m": {
-            "labels": ["2023 Sunset Invitational", "2023 BCL West #2", "2023 Quicksilver Invitational"],
-            "times": [349, 341, 348]
         }
     },
     "Meera Costa": {
@@ -277,18 +235,14 @@
             "times": [416]
         }
     },
-    "Sam West": {
-        "400m": {
-            "labels": ["2023 BCL West #1"],
-            "times": [63.22]
-        },
-        "800m": {
-            "labels": ["2023 BCL West #1", "2023 BCL West #2", "2023 Quicksilver Invitational", "2023 BCL West #3", "2023 BAC Championships"],
-            "times": [154.54, 154.03, 154.05, 154.57, 148.33]
-        },
+    "Nick Ginieczki": {
         "1600m": {
-            "labels": ["2023 Sunset Invitational", "2023 BCL West #2", "2023 Quicksilver Invitational", "2023 Bearcat Invitational"],
-            "times": [348, 338, 341, 346]
+            "labels": ["2023 Sunset Invitational", "2023 BCL West #1", "2023 BCL West #3", "2023 BAC Championships"],
+            "times": [324, 311, 307, 325]
+        },
+        "3200m": {
+            "labels": ["2023 BCL West #1", "2023 BCL West #2"],
+            "times": [710, 727]
         }
     },
     "Leor Hersh": {
@@ -305,6 +259,48 @@
             "times": [701, 680, 703]
         }
     },
+    "Eric Kocher":{
+        "400m": {
+            "labels": ["2023 BCL West #1"],
+            "times": [82.61]
+        },
+        "800m": {
+            "labels": ["2023 Sunset Invitational", "2023 BCL West #1", "2023 BCL West #2", "2023 Quicksilver Invitational", "2023 Bearcat Invitational", "2023 BCL West #3", "2023 BAC Championships"],
+            "times": [183.92, 190.28, 195.6, 194.15, 195.38, 189.77, 191.58]
+        },
+        "1600m": {
+            "labels": ["2023 BCL West #2", "2023 Quicksilver Invitational", "2023 Bearcat Invitational"],
+            "times": [431, 414, 414]
+        }
+    },
+    "Kainoa Newton": {
+        "400m": {
+            "labels": ["2023 BCL West #1"],
+            "times": [62.91]
+        },
+        "800m": {
+            "labels": ["2023 BCL West #1", "2023 BCL West #2", "2023 Quicksilver Invitational", "2023 Bearcat Invitational", "2023 BCL West #3", "2023 BAC Championships"],
+            "times": [152.5, 152.33, 158.25, 147.47, 147.95, 148.1]
+        },
+        "1600m": {
+            "labels": ["2023 Sunset Invitational", "2023 BCL West #2", "2023 Quicksilver Invitational"],
+            "times": [349, 341, 348]
+        }
+    },
+    "Benjamin Pearlstein": {
+        "400m": {
+            "labels": ["2023 BCL West #1"],
+            "times": [71.46]
+        },
+        "800m": {
+            "labels": ["2023 Sunset Invitational", "2023 BCL West #1", "2023 BCL West #2", "2023 Quicksilver Invitational", "2023 BCL West #3"],
+            "times": [168.62, 169.04, 167.47, 170.85, 171.38]
+        },
+        "1600m": {
+            "labels": ["2023 BCL West #2", "2023 Quicksilver Invitational", "2023 Bearcat Invitational", "2023 BCL West #3", "2023 BAC Championships"],
+            "times": [379, 364, 377, 368, 350]
+        }
+    },
     "Meg Santel": {
         "800m": {
             "labels": ["2023 BCL West #1", "2023 BCL West #2", "2023 Bearcat Invitational", "2023 BCL West #3"],
@@ -319,28 +315,32 @@
             "times": [919]
         }
     },
-    "Nick Ginieczki": {
-        "1600m": {
-            "labels": ["2023 Sunset Invitational", "2023 BCL West #1", "2023 BCL West #3", "2023 BAC Championships"],
-            "times": [324, 311, 307, 325]
-        },
-        "3200m": {
-            "labels": ["2023 BCL West #1", "2023 BCL West #2"],
-            "times": [710, 727]
-        }
-    },
-    "Eric Kocher":{
+    "Sam West": {
         "400m": {
             "labels": ["2023 BCL West #1"],
-            "times": [82.61]
+            "times": [63.22]
         },
         "800m": {
-            "labels": ["2023 Sunset Invitational", "2023 BCL West #1", "2023 BCL West #2", "2023 Quicksilver Invitational", "2023 Bearcat Invitational", "2023 BCL West #3", "2023 BAC Championships"],
-            "times": [183.92, 190.28, 195.6, 194.15, 195.38, 189.77, 191.58]
+            "labels": ["2023 BCL West #1", "2023 BCL West #2", "2023 Quicksilver Invitational", "2023 BCL West #3", "2023 BAC Championships"],
+            "times": [154.54, 154.03, 154.05, 154.57, 148.33]
         },
         "1600m": {
-            "labels": ["2023 BCL West #2", "2023 Quicksilver Invitational", "2023 Bearcat Invitational"],
-            "times": [431, 414, 414]
+            "labels": ["2023 Sunset Invitational", "2023 BCL West #2", "2023 Quicksilver Invitational", "2023 Bearcat Invitational"],
+            "times": [348, 338, 341, 346]
+        }
+    },
+    "James Landon": {
+        "800m": {
+            "labels": ["2023 SFAL Meet #1", "2023 SFAL Meet #2"],
+            "times": [182.5, 190.32]
+        },
+        "1600m": {
+            "labels": ["2023 SFAL Meet #1"],
+            "times": [296]
+        },
+        "3200m": {
+            "labels": ["2023 SFAL Meet #1"],
+            "times": [599]
         }
     }
 }

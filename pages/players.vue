@@ -16,8 +16,8 @@
       </div>
     </div>
     <div class="mt-10">
-      <div class="flex flex-row justify-center items-center w-min mx-auto cursor-pointer" @click="showRoster = !showRoster">
-        <p class="text-xl text-center">Roster</p>
+      <div class="flex flex-row justify-center items-center mx-auto cursor-pointer" @click="showRoster = !showRoster">
+        <p class="text-xl text-center">Roster ({{ numberOfPlayers }})</p>
         <Icon :name="showRoster ? 'material-symbols:arrow-drop-down' : 'material-symbols:arrow-drop-up'" size="32" />
       </div>
       <Transition>
