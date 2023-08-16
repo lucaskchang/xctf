@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full min-h-screen p-8">
+  <div class="w-full min-h-screen p-4 md:p-8">
     <p class="text-5xl md:text-7xl font-bold text-center">Bay School <span class="text-blue-700 dark:text-blue-500">XC/TF</span></p>
     <PlayerBio v-if="panel === 'bio'" :index="playerIndex" @show-stats="panel = 'stats'" />
     <PlayerStats v-if="panel === 'stats'" :index="playerIndex" @show-bio="panel = 'bio'" />

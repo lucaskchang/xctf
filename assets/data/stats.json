@@ -228,7 +228,7 @@
         },
         "800m": {
             "labels": ["2023 Sunset Invitational", "2023 APU Meet of Champions", "2023 Quicksilver Invitational", "2023 Bearcat Invitational", "2023 BAC Championships", "2023 NCS Class-A Championships"],
-            "times": [148.97, 141.75, 143.09, 142.27, 149.97, 149.65]
+            "times": [148.97, 141.75, 143.09, 142.27, 149.97, 139.65]
         },
         "1600m": {
             "labels": ["2023 Bearcat Invitational", "2023 BCL West #3"],

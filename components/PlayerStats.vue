@@ -29,6 +29,7 @@
 const props = defineProps<{
     index: number
 }>()
+const colorMode = useColorMode()
 
 import stats_json from "~/assets/data/stats.json";
 import bios_json from "~/assets/data/bios.json";
@@ -49,6 +50,7 @@ function getRaceData(event : string) {
       {
         label: 'Time (s)',
         backgroundColor: '#3b82f6',
+        borderColor: colorMode.value == 'light' ? '#e2e8f0' : '#334155',
         data: playerStats.value[event].times,
       }
     ]

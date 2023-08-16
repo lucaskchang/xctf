@@ -1,16 +1,16 @@
 <template>
   <div class="flex flex-wrap">
-    <div class="w-full md:w-1/2 p-4 md:p-12 flex flex-col flex-grow flex-shrink justify-center items-center">
-      <img class="object-cover rounded-xl max-h-[36rem]" :src="'/images/' + playerFullName + '.jpeg'" />
+    <div class="w-full md:w-1/2 mt-4 md:m-0 md:p-12 flex flex-col flex-grow flex-shrink justify-center items-center">
+      <img class="object-cover rounded-xl w-full aspect-square" :src="'/images/athletes/' + playerFullName + '.jpeg'" />
     </div>
     <div class="w-full md:w-1/2 p-4 md:p-12 flex flex-col flex-grow flex-shrink justify-center">
       <p class="text-4xl md:text-5xl font-bold">
         {{ playerBio.first_name }} "{{ playerBio.nickname }}" {{ playerBio.last_name }}
       </p>
       <p class="text-3xl md:text-4xl mt-2">
-        {{ playerBio.grade }} <span v-if="playerBio.captain"> - Captain</span>
+        {{ playerGrade }} <span v-if="playerBio.captain"> - Captain</span>
       </p>
-      <div class="text-lg md:text-xl caption">
+      <div class="text-lg md:text-xl caption tracking-tight">
         <p class="mt-4">
           Height: {{ playerHeight }}
         </p>
@@ -63,5 +63,27 @@ const playerHeight = computed(() => {
         return feet + "'" + inches + '"';
     }
 })
-
+// calculate player grade ( freshman, sophomore, junior, senior ) given their graduation year
+const playerGrade = computed(() => {
+  const currentYear = new Date().getFullYear();
+  const currentMonth = new Date().getMonth();
+  const gradYear = playerBio.value.grad_year;
+  let yearsLeft;
+  if (currentMonth > 6) {
+    yearsLeft = gradYear - (currentYear + 1);
+  } else {
+    yearsLeft = gradYear - currentYear;
+  }
+  if (yearsLeft == 0) {
+    return "Senior";
+  } else if (yearsLeft == 1) {
+    return "Junior";
+  } else if (yearsLeft == 2) {
+    return "Sophomore";
+  } else if (yearsLeft == 3) {
+    return "Freshman";
+  } else {
+    return "Alumni";
+  }
+})
 </script>
