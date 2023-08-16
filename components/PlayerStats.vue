@@ -1,9 +1,9 @@
 <template>
   <div class="p-4 text-center">
-    <p class="text-4xl">
+    <p class="text-4xl tracking-tight font-medium">
       {{ playerBio.first_name }} "{{ playerBio.nickname }}" {{ playerBio.last_name }}
     </p>
-    <p v-if="Object.keys(playerStats).length == 0" class="text-2xl">No results</p>
+    <p v-if="Object.keys(playerStats).length == 0" class="text-3xl mt-4">No results</p>
     <div 
       v-for="event in Object.keys(playerStats)" 
       :key="event"

@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+html { font-family: "Inter", "system-ui"; }
 
+@supports (font-variation-settings: normal) {
+  html { font-family: "Inter var", "system-ui"; }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 .caption {
     font-family: 'Ubuntu', sans-serif;
 }

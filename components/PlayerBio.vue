@@ -4,10 +4,10 @@
       <img class="object-cover rounded-xl w-full aspect-square" :src="'/images/athletes/' + playerFullName + '.jpeg'" />
     </div>
     <div class="w-full md:w-1/2 p-4 md:p-12 flex flex-col flex-grow flex-shrink justify-center">
-      <p class="text-4xl md:text-5xl font-bold">
+      <p class="text-4xl md:text-5xl font-bold tracking-tight">
         {{ playerBio.first_name }} "{{ playerBio.nickname }}" {{ playerBio.last_name }}
       </p>
-      <p class="text-3xl md:text-4xl mt-2">
+      <p class="text-3xl md:text-4xl mt-2 tracking-tight">
         {{ playerGrade }} <span v-if="playerBio.captain"> - Captain</span>
       </p>
       <div class="text-lg md:text-xl caption tracking-tight">
