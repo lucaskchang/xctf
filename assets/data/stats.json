@@ -153,6 +153,10 @@
         "3200m": {
             "labels": ["2022 BCL Meet West #2", "2022 BAC Championships", "2022 NCS CLASS A CHAMPIONSHIP", "2023 BCL West #1", "2023 APU Meet of Champions", "2023 BAC Championships", "2023 NCS Class-A Championships", "2023 NCS Meet of Champions"],
             "times": [759, 749, 794, 731, 687, 695, 695, 691]
+        },
+        "2 Miles": {
+            "labels": ["2023 Nike Outdoor Nationals"],
+            "times": [679]
         }
     },
     "Diego Rodriguez": {
@@ -189,8 +193,8 @@
             "times": [64.03]
         },
         "800m": {
-            "labels": ["2023 Sunset Invitational", "2023 APU Meet of Champions", "2023 Quicksilver Invitational", "2023 Bearcat Invitational", "2023 BAC Championships", "2023 NCS Class-A Championships"],
-            "times": [148.97, 141.75, 143.09, 142.27, 149.97, 139.65]
+            "labels": ["2023 Sunset Invitational", "2023 APU Meet of Champions", "2023 Quicksilver Invitational", "2023 Bearcat Invitational", "2023 BAC Championships", "2023 NCS Class-A Championships", "2023 Nike Outdoor Nationals"],
+            "times": [148.97, 141.75, 143.09, 142.27, 149.97, 139.65, 139.64]
         },
         "1600m": {
             "labels": ["2023 Bearcat Invitational", "2023 BCL West #3"],
