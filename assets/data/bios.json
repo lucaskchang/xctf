@@ -240,6 +240,18 @@
         "seasons": ["XC 2022", "TF 2023"]
     },
     {
+        "first_name": "Pieke",
+        "last_name": "Simonian",
+        "nickname": "Piss",
+        "grad_year": 2026,
+        "captain": false,
+        "height": "idk",
+        "likes": "stickman hook, sour grass",
+        "dislikes": "",
+        "fun_fact": "",
+        "seasons": []
+    },
+    {
         "first_name": "Sam",
         "last_name": "West",
         "nickname": "The Sloth",
@@ -300,18 +312,6 @@
         "seasons": []
     },
     {
-        "first_name": "Emma",
-        "last_name": "Jasik",
-        "nickname": "No Nickname",
-        "grad_year": 2027,
-        "captain": false,
-        "height": "?",
-        "likes": "?",
-        "dislikes": "?",
-        "fun_fact": "?",
-        "seasons": []
-    },
-    {
         "first_name": "James",
         "last_name": "Landon",
         "nickname": "Landon Deez Nuts",
@@ -326,18 +326,6 @@
     {
         "first_name": "Harper",
         "last_name": "Lord",
-        "nickname": "No Nickname",
-        "grad_year": 2027,
-        "captain": false,
-        "height": "?",
-        "likes": "?",
-        "dislikes": "?",
-        "fun_fact": "?",
-        "seasons": []
-    },
-    {
-        "first_name": "Eli",
-        "last_name": "Mitton",
         "nickname": "No Nickname",
         "grad_year": 2027,
         "captain": false,
