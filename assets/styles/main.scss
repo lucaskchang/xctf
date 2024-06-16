@@ -18,3 +18,11 @@ html { font-family: "Inter", "system-ui"; }
 .v-leave-to {
     opacity: 0;
 }
+
+#my-map {
+    background-color: white;
+}
+
+.my-marker {
+    border-radius: 100% !important;
+}

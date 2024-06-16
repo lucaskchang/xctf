@@ -1,25 +1,30 @@
 <template>
-    <div class="p-8 min-h-screen">
+  <div class="p-8 min-h-screen">
   <p class="text-5xl md:text-7xl font-bold text-center tracking-tight">Race Simulations (WIP)</p>
   <div class="flex flex-row mt-20">
     <div class="flex flex-col w-1/4 px-2">
-      <p class="mx-auto text-4xl font-medium mb-4">{{ formattedClock }}</p>
-      <p v-for="(time, athlete) of results" :key="athlete" class="mx-auto text-2xl text-center">{{ athlete }}: {{ time }}</p>
+      <p class="text-2xl font-semibold text-center mb-2">Pick a Race</p>
+      <select v-model="currentRace" class="ring-1 ring-black text-xl py-1 focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 rounded text-center w-3/5 mx-auto">
+        <option v-for="race of Object.keys(races)" :key="race">{{ race }}</option>
+      </select>
+      <p class="text-xl text-center my-2">{{ races[currentRace].overview.distance }} miles / {{ races[currentRace].overview.elevation }} ft elev.</p>
+      <p class="text-2xl font-semibold text-center mt-20">Results</p>
+      <p class="mx-auto text-4xl font-medium text-red-500 mb-2">{{ formattedClock }}</p>
+      <p v-for="(time, athlete) of results" :key="athlete" class="mx-auto text-lg text-center">{{ Object.keys(results).indexOf(athlete) + 1 }}. {{ athlete }}: {{ formatTime(time) }} ({{ formatTime(Number(time) / races[currentRace].overview.distance) }} min/mi)</p>
     </div>
     <div class="flex flex-col w-3/4">
   <div class="mx-auto w-full aspect-video">
-    <l-map :useGlobalLeaflet="false" v-model:zoom="zoom" :center="center">
-        <!--
+    <l-map :useGlobalLeaflet="false" v-model:zoom="zoom" :center="center" id="my-map" class="ring-8 rounded ring-red-500">
+      <!--
       <l-tile-layer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         layer-type="base"
         name="OpenStreetMap"
       ></l-tile-layer>
       -->
-
         <l-geo-json :geojson="geojson" :options-style="geojsonOptions"></l-geo-json>
-        <l-marker v-for="(coords, athlete) of markerCoords" :key="athlete" :lat-lng="coords">
-            <l-icon :icon-url="`/images/athletes/${athlete}.jpeg`" :icon-size="[32, 32]" class="rounded-full"></l-icon>
+        <l-marker v-for="(coords, athlete) of markerCoords" :key="athlete" :lat-lng="coords" class="my-marker">
+            <l-icon :icon-url="`/images/athletes/${athlete}.jpeg`" :icon-size="[32, 32]" class="my-marker rounded-full"></l-icon>
         </l-marker>
     </l-map>
   </div>
@@ -54,16 +59,18 @@ const formattedClock = computed(() => {
     return `${minutes}:${seconds}`
 });
 const markerCoords = ref({}) as Ref<{[key: string]: number[]}>
-const times = ref({}) as Ref<{[key: string]: number}>
-const results = ref({}) as Ref<{[key: string]: string}>
+const times = computed(() => {
+  return races[currentRace]['results'];
+}) as Ref<{[key: string]: number}>
+const results = ref({}) as Ref<{[key: string]: number}>
 
-for (const athlete in races) {
-    const time = races[athlete]['BCL West Meet No. 1'];
-    markerCoords.value[athlete] = [
-        coordinatePoints[0][1],
-        coordinatePoints[0][0]
-    ]
-    times.value[athlete] = time;
+const currentRace = "BCL West Meet No. 1";
+
+for (const athlete in races[currentRace]['results']) {
+  markerCoords.value[athlete] = [
+      coordinatePoints[0][1],
+      coordinatePoints[0][0]
+  ]
 }
 
 function formatTime(time: number) {
@@ -72,7 +79,7 @@ function formatTime(time: number) {
     return `${minutes}:${seconds}`
 }
 
-for (const athlete in races) {
+for (const athlete in times.value) {
     const tickSpeed = 0.1 * times.value[athlete];
     let tick = 0;
     const loop = setInterval(() => {
@@ -80,12 +87,12 @@ for (const athlete in races) {
             coordinatePoints[tick][1],
             coordinatePoints[tick][0]
         ]
-        if (Object.keys(races).indexOf(athlete) === Object.keys(races).length - 1) {
-            const time = races[athlete]['BCL West Meet No. 1'];
+        if (Object.keys(races[currentRace]['results']).indexOf(athlete) === Object.keys(races[currentRace]['results']).length - 1) {
+            const time = times.value[athlete];
             clock.value += time / length
         }
         if (tick >= length - 1) {
-            results.value[athlete] = formatTime(races[athlete]['BCL West Meet No. 1'])
+            results.value[athlete] = times.value[athlete]
             clearInterval(loop);
         }
         tick++;
