@@ -33,10 +33,6 @@
         "200m": {
             "labels": ["2024 BCL West #1", "2024 BCL West #3"],
             "times": [28.86, 28.37]
-        },
-        "Long Jump": {
-            "labels": ["2024 Fighting Knights Relays", "2024 BCL West #1", "2024 BCL West #2", "2024 BCL West #3", "2024 BAC Championships", "2024 NCS Class-A Championships"],
-            "times": ["13.8.5"]
         }
     },
     "Hayden Gong": {
