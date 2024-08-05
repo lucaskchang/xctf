@@ -16,14 +16,14 @@
         <div class="flex flex-col">
           <NuxtLink to="/photos">
             <button class="bg-blue-600 hover:bg-blue-800 text-white font-bold py-3 px-4 rounded-full">
-              Photo Gallery
+              Photo Gallery (Coming Soon)
             </button>
           </NuxtLink>
         </div>
         <div class="flex flex-col">
           <NuxtLink to="/xc">
             <button class="bg-blue-600 hover:bg-blue-800 text-white font-bold py-3 px-4 rounded-full">
-              Race Sims
+              Race Sims (WIP)
             </button>
           </NuxtLink>
         </div>
