@@ -1,6 +1,7 @@
-<template :class="$colorMode.value">
-  <div class="transition duration-300 bg-white dark:bg-slate-900 text-black dark:text-slate-50">
-    <ThemeSwitch />
+<template>
+  <div
+    class="min-h-screen text-gray-950 transition duration-300 ease-in-out dark:bg-gray-950 dark:text-white"
+  >
     <slot />
   </div>
 </template>
