@@ -27,7 +27,7 @@
           Fun Fact: {{ playerBio.fun_fact }}
         </p>
       </div>
-      <p class="mt-2 text-xl text-black dark:text-slate-50">
+      <p class="mt-2 text-xl text-black">
         Seasons Run:
       </p>
       <div class="flex flex-wrap font-bold text-white">
