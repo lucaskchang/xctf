@@ -9,7 +9,7 @@
       >
         <NuxtImg
           format="webp"
-          src="/logotext.png"
+          src="/logo.png"
           alt="logo"
           class="h-20 rounded-full"
         />

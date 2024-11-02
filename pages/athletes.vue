@@ -16,7 +16,7 @@
           :class="{ 'bg-slate-300': playerIndex == 0, 'hover:bg-slate-300': playerIndex == 0, 'cursor-not-allowed': playerIndex == 0 }"
           @click="goBack()"
         >
-          <Icon
+          <UIcon
             name="ic:outline-arrow-left"
             size="32"
           />
@@ -27,7 +27,7 @@
           :class="{ 'bg-slate-300': playerIndex == numberOfPlayers - 1, 'hover:bg-slate-300': playerIndex == numberOfPlayers - 1, 'cursor-not-allowed': playerIndex == numberOfPlayers - 1 }"
           @click="goForward()"
         >
-          <Icon
+          <UIcon
             name="ic:outline-arrow-right"
             size="32"
           />
